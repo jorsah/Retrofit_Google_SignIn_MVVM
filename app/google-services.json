@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "360773642344",
+    "project_id": "testingsingin",
+    "storage_bucket": "testingsingin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360773642344:android:7fba4017751c7d654fb3dd",
+        "android_client_info": {
+          "package_name": "com.foreachsoft.TestingGoogleSignIn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360773642344-qe5k4ctgq9ad090n05g8nbrbvptd24ko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foreachsoft.TestingGoogleSignIn",
+            "certificate_hash": "1eb80699799c9b1768b6c752d605b773b597acd8"
+          }
+        },
+        {
+          "client_id": "360773642344-qe505hdihrk8sfkru30eh92qidaupneg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaK2encFch1-drqIkfjTorAcsAVUWyYeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360773642344-qe505hdihrk8sfkru30eh92qidaupneg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
