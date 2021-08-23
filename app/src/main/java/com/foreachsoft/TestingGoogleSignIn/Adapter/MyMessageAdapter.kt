@@ -1,5 +1,6 @@
 package com.foreachsoft.TestingGoogleSignIn.Adapter
 
+import android.annotation.SuppressLint
 import com.foreachsoft.TestingGoogleSignIn.Model.Message
 import android.view.LayoutInflater
 import android.view.View
@@ -50,6 +51,7 @@ class MyMessageAdapter(private var messageList: MutableList<Message>) :
 
     override fun getItemCount() = messageList.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setMessagesList(list: MutableList<Message>) {
         messageList = list
         notifyDataSetChanged()
